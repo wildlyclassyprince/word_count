@@ -8,9 +8,8 @@ def splitter(line):
     line = re.sub(r'^\W+|\W+$', '', line)
     return map(str.lower, re.split(r'\W+', line))
 
-file_name = input('Document Name: ')
-
 def main():
+    file_name = input('Document Name: ')
     sums = dict()
     try:
         with open(file_name, 'r') as f:

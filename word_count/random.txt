@@ -1,0 +1,1 @@
+One frequent source of confusion for novice developers is the subject of testing. They are vaguely aware that "unit testing" is something that's good and that they should do, but don't understand what the term actually means. If that sounds like you, fear not! In this article, I'll describe what unit testing is, why it's useful, and how to unit test Python code.

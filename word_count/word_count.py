@@ -2,9 +2,10 @@ from __future__ import print_function, division
 
 import re
 
-# Remove any non-words and split lines into seperate words.
-# Finally, convert all words to lowercase.
 def splitter(line):
+    '''Remove all non-words and convert 
+    all words to lowercase.
+    '''
     line = re.sub(r'^\W+|\W+$', '', line)
     return map(str.lower, re.split(r'\W+', line))
 

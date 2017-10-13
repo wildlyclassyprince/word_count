@@ -1,11 +1,11 @@
 Metadata-Version: 1.0
 Name: word-count
-Version: 0.0.0
-Summary: UNKNOWN
-Home-page: UNKNOWN
-Author: UNKNOWN
-Author-email: UNKNOWN
-License: UNKNOWN
-Description-Content-Type: UNKNOWN
-Description: UNKNOWN
-Platform: UNKNOWN
+Version: 0.0.1
+Summary: Simple word counter.
+Home-page: None
+Author: wildlyclassyprince
+Author-email: None
+License: GNU
+Description-Content-Type: None
+Description: Simple word counter.
+Platform: None

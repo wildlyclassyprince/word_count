@@ -3,7 +3,7 @@ from __future__ import print_function, division
 import re
 
 def splitter(line):
-    '''Remove all non-words and convert 
+    '''Remove all special characters and convert 
     all words to lowercase.
     '''
     line = re.sub(r'^\W+|\W+$', '', line)
